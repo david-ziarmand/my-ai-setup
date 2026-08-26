@@ -3,8 +3,13 @@
 ## General
 
 1. Do not write any comments in code, unless requested by user. Comments must be in English only.
-2. File names should be lowercase kebab-case like "file-name.ts". 
-3. Classes should be in PascalCase like "MyClassName"
+2. When a comment is needed, tag it:
+   - `HACK` workaround/kludge, not clean but works; max 3 sentences, just enough to understand.
+   - `TODO` non-critical follow-up; max 1 sentence, ideally a few words.
+   - `INFO` FYI note; max 1 sentence, ideally a few words.
+3. Write comments in plain simple text: no quotes, no em/en dashes, no lists, no complex words.
+4. File names should be lowercase kebab-case like "file-name.ts". 
+5. Classes should be in PascalCase like "MyClassName"
 
 ## TypeScript rules
 

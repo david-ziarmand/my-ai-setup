@@ -1,6 +1,6 @@
 # Global Rules
 
-AI_SETUP_PATH=D:/AI
+AI_SETUP_PATH=D:/Projects/my-ai-setup
 
 Always use this code style rules: @AI_SETUP_PATH/Rules/code-style.md
 
