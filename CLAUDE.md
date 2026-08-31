@@ -2,6 +2,8 @@
 
 AI_SETUP_PATH=D:/Projects/my-ai-setup
 
+Always use this writing style rules: @AI_SETUP_PATH/Rules/global.md
+
 Always use this code style rules: @AI_SETUP_PATH/Rules/code-style.md
 
 # If project use JavaScript/TypeScript

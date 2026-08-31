@@ -8,6 +8,7 @@ Before use change `AI_SETUP_PATH` variable in these files:
 ## Rules
 
 ### General
+[Global Writing Style](./Rules/global.md) \
 [Code Style](./Rules/code-style.md)
 
 ### JavaScript/TypeScript
