@@ -1,0 +1,15 @@
+.next
+node_modules
+dist
+build
+public
+
+pnpm-lock.yaml
+tsconfig.json
+
+src/payload-types.ts
+src/app/(payload)/**
+
+docker-compose.yml
+
+**/*.md
