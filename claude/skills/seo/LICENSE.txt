@@ -2,17 +2,17 @@ Files in references/ are adapted from two MIT licensed sources. The meaning of t
 
 Sources
 
-| File                    | Source                                           | Upstream skill                | Version |
-|-------------------------|--------------------------------------------------|-------------------------------|---------|
-| seo-audit.md            | https://github.com/coreyhaines31/marketingskills | seo-audit                     | 2.0.1   |
-| ai-writing-detection.md | https://github.com/coreyhaines31/marketingskills | seo-audit/references          | 2.0.1   |
-| international-seo.md    | https://github.com/coreyhaines31/marketingskills | seo-audit/references          | 2.0.1   |
-| title-tag.md            | https://github.com/kostja94/marketing-skills     | seo/on-page/title-tag         | 1.4.0   |
-| meta-description.md     | https://github.com/kostja94/marketing-skills     | seo/on-page/meta-description  | 1.4.0   |
-| heading-structure.md    | https://github.com/kostja94/marketing-skills     | seo/on-page/heading-structure | 1.0.1   |
-| page-metadata.md        | https://github.com/kostja94/marketing-skills     | seo/on-page/page-metadata     | 1.2.0   |
-| open-graph.md           | https://github.com/kostja94/marketing-skills     | seo/on-page/open-graph        | 1.1.0   |
-| schema-markup.md        | https://github.com/kostja94/marketing-skills     | seo/on-page/schema-markup     | 1.5.0   |
+| File                    | Source                                           | Upstream path                                   | Version |
+|-------------------------|--------------------------------------------------|-------------------------------------------------|---------|
+| seo-audit.md            | https://github.com/coreyhaines31/marketingskills | skills/seo-audit/SKILL.md                       | 2.0.1   |
+| ai-writing-detection.md | https://github.com/coreyhaines31/marketingskills | skills/seo-audit/references/ai-writing-detection.md | 2.0.1   |
+| international-seo.md    | https://github.com/coreyhaines31/marketingskills | skills/seo-audit/references/international-seo.md | 2.0.1   |
+| title-tag.md            | https://github.com/kostja94/marketing-skills     | skills/seo/on-page/title/SKILL.md               | 1.4.0   |
+| meta-description.md     | https://github.com/kostja94/marketing-skills     | skills/seo/on-page/description/SKILL.md         | 1.4.0   |
+| heading-structure.md    | https://github.com/kostja94/marketing-skills     | skills/seo/on-page/heading/SKILL.md             | 1.0.1   |
+| page-metadata.md        | https://github.com/kostja94/marketing-skills     | skills/seo/on-page/metadata/SKILL.md            | 1.2.0   |
+| open-graph.md           | https://github.com/kostja94/marketing-skills     | skills/seo/on-page/open-graph/SKILL.md          | 1.1.0   |
+| schema-markup.md        | https://github.com/kostja94/marketing-skills     | skills/seo/on-page/schema/SKILL.md              | 1.5.0   |
 
 Changes made
 
