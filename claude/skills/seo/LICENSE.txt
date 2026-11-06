@@ -22,6 +22,7 @@ Changes made
    in this folder.
 4. The product marketing context step in seo-audit.md now points to the project AGENTS.md and docs/.
 5. Yandex mentions removed. Russian as the Cyrillic example replaced with Ukrainian.
+6. ai-writing-detection.md: the "rare em dash per page" allowance replaced with a full ban.
 
 To update: diff the new upstream SKILL.md against the matching file, port the content changes, apply the edits listed
 above, and bump the version here.

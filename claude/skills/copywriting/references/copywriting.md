@@ -136,7 +136,7 @@ Clients and buyers reject copy that reads as AI-written, and a reader who spots 
 3. **Trailing pile-ons.** A full claim followed by a comma and more clauses: "...the data you already have, no exports, no spreadsheets, no second copy." End the sentence at the claim.
 4. **Self-answered questions and colon reveals.** "The result? 3x faster." "The best part: it learns." Just say it. FAQ questions and a reader's own question ("Need to share a screenshot?") are fine.
 5. **Stock openers and phrases.** "In today's fast-paced world," "Whether you're X or Y," "Here's the thing," "Say goodbye to," "X, reimagined," "Unlock the power of," "Take it to the next level."
-6. **Em dashes in short copy.** Headlines, subheads, ads, social posts, and subject lines use none.
+6. **Em and en dashes.** None anywhere: headlines, subheads, ads, social posts, subject lines, and long copy.
 
 ### Keep these rare
 

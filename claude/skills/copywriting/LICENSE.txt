@@ -20,7 +20,10 @@ Changes made
 2. Em dashes and en dashes replaced with colons, commas, or hyphens, except where a dash is the example of the pattern
    to avoid or the character to search for (ai-tells.md, humanizer.md).
 3. Dash policy made strict: the "1-2 per page in long copy" allowance (copy-editing.md, checklist.md, ai-tells.md) and
-   the "match the writer's sample" exception (humanizer.md) removed. No em or en dashes anywhere.
+   the "match the writer's sample" exception (humanizer.md) removed. No em or en dashes anywhere. Short-copy-only dash
+   rule in copywriting.md extended to all copy.
+6. Quote policy made strict in humanizer.md: straight quotes only, in any language. A writing sample can no longer
+   override the dash and quote rules.
 4. The product marketing context step in copywriting.md and copy-editing.md now points to the project AGENTS.md,
    docs/, and the brief.
 5. References to skills that are not part of this skill removed (cro, emails, popups, offers, ab-testing,

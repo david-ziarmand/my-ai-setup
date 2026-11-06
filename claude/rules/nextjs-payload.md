@@ -1,7 +1,12 @@
 ---
 paths:
-  - "src/**/*.{ts,tsx}"
+  - "payload.config.ts"
+  - "src/payload.config.ts"
   - "next.config.*"
+  - "src/app/**"
+  - "src/cms/**"
+  - "src/features/**/cms/**"
+  - "src/shared/services/**"
   - "scripts/**/*.ts"
 ---
 

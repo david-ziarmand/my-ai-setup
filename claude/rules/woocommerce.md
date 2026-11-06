@@ -25,6 +25,6 @@ Applies only to WordPress sites that are stores. Base rules are in `wordpress.md
 
 ## Catalog data
 
-1. Product changes at scale (imports, bulk fixes, price updates) go through scripts in `data/scripts/`, never through manual edits in production. Use the `woocommerce-data` skill.
+1. When the agent changes products at scale (imports, bulk fixes, price updates), it uses scripts in `data/scripts/`, never manual edits in production. The client and the user edit products in wp-admin as usual. Use the `woocommerce-data` skill.
 2. Machine-facing identifiers (SKU, slug, image filename) are ASCII only.
 3. LocalWP and production catalogs drift apart. Check the production state before planning a fix based on local data.

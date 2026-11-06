@@ -13,7 +13,7 @@ How to work with the user in any project.
 
 1. Never `git push`, open or merge a pull request, or run a deploy workflow without fresh, explicit permission for that specific action. An earlier approval does not carry over to the next one.
 2. Never write to a production site directly (files, database, REST API) outside the deploy workflow or an explicitly approved script run.
-3. Every script that writes to production runs as a dry-run first. Show the result, then wait for confirmation before the live run.
+3. Every script that writes to production runs as a dry-run first. Show the result, then wait for confirmation before the live run. If a script has no dry-run, show exactly what it will write instead, and wait for confirmation.
 4. Before a bulk move or delete of data (DB rows, products, spreadsheet rows), state plainly what goes where and how many items, and keep a local backup.
 5. Never commit secrets (`.env`, API keys, SSH keys) and never hardcode keys, tokens, or personal data in source code.
 

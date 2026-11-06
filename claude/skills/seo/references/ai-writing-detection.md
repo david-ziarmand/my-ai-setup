@@ -47,8 +47,7 @@ have legitimate uses in writing, AI models drastically overuse them.
 - Use commas for most parenthetical information
 - Use colons to introduce explanations or lists
 - Use parentheses for supplementary information
-- Reserve em dashes for rare, deliberate emphasis only
-- If you find yourself using more than one em dash per page, revise
+- Do not use em dashes at all
 
 ---
 

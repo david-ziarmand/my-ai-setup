@@ -1,11 +1,12 @@
 # Writing style
 
-Applies to all text output: chat replies, docs, README files, plans, commit messages, code comments, skill files.
+Applies to all text output: chat replies, docs, README files, plans, commit messages, code comments, skill files, website content, client messages.
 
 ## Characters
 
 1. No em dashes or en dashes. Use a period, comma, or colon instead.
-2. No curly or smart quotes. Use plain straight quotes, only when quoting is needed.
+2. No curly or smart quotes, and no language-specific quotes such as «...» or „...". Use plain straight quotes, only when quoting is needed.
+3. Both rules apply in every language, including Ukrainian website content.
 
 ## Wording
 
@@ -15,14 +16,10 @@ Applies to all text output: chat replies, docs, README files, plans, commit mess
 
 ## Language
 
-1. Chat replies and plans: the language the user writes in (usually Ukrainian).
+1. Chat replies and plans, including files in `plans/`: the language the user writes in (usually Ukrainian).
 2. Project docs, code, code comments, commit messages: English.
-3. Technical terms, file paths, identifiers stay in their original form.
-
-## Docs
-
-1. Do not create many small doc files on related topics. Merge them into one file.
-2. Before adding a new doc, check if an existing one should be extended instead.
+3. Website content (texts in CMS fields, seeds, templates): the site's language, even though it lives in code files.
+4. Technical terms, file paths, identifiers stay in their original form.
 
 ## Self-check
 

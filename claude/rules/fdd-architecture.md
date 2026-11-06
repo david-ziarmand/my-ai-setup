@@ -17,7 +17,7 @@ Used in every project, both Next.js and WordPress. Stack details live in `nextjs
 
 ## features/
 
-One folder per page or logical module: `src/features/{feature-name}/`. Each feature exposes only what is used outside through its barrel.
+One folder per page or logical module: `src/features/{feature-name}/`. In Next.js a feature exposes only what is used outside through its barrel. In WordPress features are reached only through the render helpers (`page()`, `section()`).
 
 Common subfolders, created only when needed:
 

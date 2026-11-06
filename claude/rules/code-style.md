@@ -17,7 +17,7 @@
    - `HACK:` workaround that is not clean but works, three sentences max.
 3. Plain text only: no quotes, no dashes, no lists, no docblocks or multi-line narration.
 4. Obvious or redundant comments get deleted, not shortened.
-5. Exempt: tool directives (`eslint-disable`, `@ts-expect-error`) and generated files.
+5. Exempt: tool directives (`eslint-disable`, `@ts-expect-error`), generated files, and comments a platform requires to work, such as the WordPress theme header in `style.css` and `/* Template Name: ... */`.
 
 ## TypeScript
 
