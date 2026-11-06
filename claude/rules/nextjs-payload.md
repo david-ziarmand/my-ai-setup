@@ -7,7 +7,7 @@ paths:
 
 # Next.js + Payload CMS
 
-Stack: Next.js (App Router), Payload CMS 3, PostgreSQL, React, Tailwind CSS v4, TypeScript strict, pnpm only. Starter repo: `Easy-Dev-Company/template-nextjs`. Reference project until the starter is filled: `easy-dev-website`.
+Stack: Next.js (App Router), Payload CMS 3, PostgreSQL, React, Tailwind CSS v4, TypeScript strict, pnpm only. Starter repo: `https://github.com/Easy-Dev-Company/template-nextjs`. Reference project until the starter is filled: `https://github.com/Easy-Dev-Company/easy-dev-website`.
 
 ## src/ exceptions to FDD
 

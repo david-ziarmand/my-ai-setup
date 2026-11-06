@@ -7,7 +7,7 @@ paths:
 
 # WordPress
 
-Stack: WordPress, custom theme, Tailwind CSS v4 CLI, Secure Custom Fields (SCF), LocalWP for local dev, manual FTP deploy from GitHub Actions. Starter repo: `template-wordpress`. Its `docs/` folder is the detailed reference, this file is the summary.
+Stack: WordPress, custom theme, Tailwind CSS v4 CLI, Secure Custom Fields (SCF), LocalWP for local dev, manual FTP deploy from GitHub Actions. Starter repo: `https://github.com/Easy-Dev-Company/template-wordpress`. Its `docs/` folder is the detailed reference, this file is the summary.
 
 ## Repo layout
 
