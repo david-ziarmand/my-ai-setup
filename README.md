@@ -4,7 +4,7 @@ Global knowledge base for Claude Code: rules, skills, settings, and a status lin
 into `~/.claude/`, so it works in every project. Project-specific knowledge stays in each project (`AGENTS.md`, `docs/`,
 `plans/`), created with the `init-project` skill.
 
-Works on Windows (Git Bash), macOS, and Linux.
+Works on Windows (Git Bash), macOS, and Linux. Needs `bash`, `git`, and `node` (for the status line).
 
 ## Install
 
