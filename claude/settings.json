@@ -7,9 +7,6 @@
     "type": "command",
     "command": "node {{CLAUDE_HOME}}/statusline.js"
   },
-  "enabledPlugins": {
-    "rust-analyzer-lsp@claude-plugins-official": false
-  },
   "language": "Ukrainian",
   "tui": "fullscreen",
   "voice": {

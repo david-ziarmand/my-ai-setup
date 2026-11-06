@@ -1,6 +1,6 @@
 # Global
 
-The user is a web developer who builds client sites: landings, multi-page sites, and online stores, on WordPress or Next.js + Payload. Works on Windows in JetBrains IDEs.
+The user is a web developer who builds client sites: landings, multi-page sites, and online stores, on WordPress or Next.js + Payload. Works in JetBrains IDEs.
 
 - Rules live in `~/.claude/rules/` and load automatically: some always, stack rules by `paths`.
 - Skills live in `~/.claude/skills/`.
