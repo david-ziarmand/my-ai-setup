@@ -5,14 +5,15 @@ repo_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source_dir="$repo_dir/claude"
 target_dir="${CLAUDE_CONFIG_DIR:-$HOME/.claude}"
 manifest="$target_dir/.my-ai-setup-manifest"
-dry_run=false
+dry_run=true
 
 for arg in "$@"; do
   case "$arg" in
-    --dry-run) dry_run=true ;;
+    --apply) dry_run=false ;;
     -h | --help)
-      echo "Usage: ./install.sh [--dry-run]"
-      echo "Copies claude/ from this repo into $target_dir, with a backup of every file it replaces."
+      echo "Usage: ./install.sh [--apply]"
+      echo "Without --apply: shows what would change, changes nothing."
+      echo "With --apply: copies claude/ from this repo into $target_dir, with a backup of every file it replaces."
       exit 0
       ;;
     *)
@@ -49,7 +50,7 @@ done
 backup_dir="$target_dir/my-ai-setup-backups/$(date +%Y%m%d-%H%M%S)"
 echo "Source: $source_dir"
 echo "Target: $target_dir"
-$dry_run && echo "Dry run, nothing will be changed."
+$dry_run && echo "Dry run, nothing will be changed. Use --apply to install."
 
 backup() {
   local item="$1"
@@ -88,7 +89,12 @@ else
   printf "%s\n" "${managed_items[@]}" > "$manifest"
 fi
 
-if [ -d "$backup_dir" ]; then
-  echo "Backup of replaced files: $backup_dir"
+if $dry_run; then
+  echo "Dry run finished, nothing was changed. To install for real, run:"
+  echo "  ./install.sh --apply"
+else
+  if [ -d "$backup_dir" ]; then
+    echo "Backup of replaced files: $backup_dir"
+  fi
+  echo "Done. Restart Claude Code to load the new rules and skills."
 fi
-echo "Done."
