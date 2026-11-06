@@ -9,7 +9,7 @@ Works on Windows (Git Bash), macOS, and Linux. Needs `bash`, `git`, and `node` (
 ## Install
 
 ```bash
-git clone https://github.com/davyd-ziarmand/my-ai-setup.git
+git clone https://github.com/david-ziarmand/my-ai-setup.git
 cd my-ai-setup
 ./install.sh           # dry run: shows what would change
 ./install.sh --apply   # installs into ~/.claude
