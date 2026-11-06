@@ -69,4 +69,4 @@ Edit files here, in the repo, not in `~/.claude/`: the next install overwrites t
 | `seo`               | SEO audit, titles, meta, headings, Open Graph, schema              |
 | `legal`             | Privacy, terms, cookie, refund, and shipping pages                 |
 
-`copywriting`, `seo`, and `legal` are adapted from MIT licensed sources. See `LICENSE.txt` in each skill folder.
+`copywriting`, `seo`, and `legal` are based on open source skills. See `SOURCES.md` in each skill folder.

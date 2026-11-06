@@ -556,3 +556,7 @@ Same format as above
 - [schema-markup.md](schema-markup.md): For implementing structured data
 - [title-tag.md](title-tag.md), [meta-description.md](meta-description.md), [heading-structure.md](heading-structure.md), [page-metadata.md](page-metadata.md), [open-graph.md](open-graph.md):
   On-page fixes found by the audit
+- [google-search-console-ranking.md](google-search-console-ranking.md): Next step after the audit, moving pages that
+  already rank onto page one
+- [google-business-profile-seo.md](google-business-profile-seo.md): Local businesses, Google Business Profile, map pack,
+  reviews, location pages

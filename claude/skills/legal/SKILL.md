@@ -19,7 +19,7 @@ task covers several legal pages or the product category and jurisdiction are not
 
 ## Notes on the references
 
-1. They are adapted third-party texts, see [LICENSE.txt](LICENSE.txt) for sources, licenses, and what was changed.
+1. They are based on third-party texts, see [SOURCES.md](SOURCES.md).
 2. Output still follows `~/.claude/rules/writing-style.md`, whatever tone the references use.
 
 ## Before writing

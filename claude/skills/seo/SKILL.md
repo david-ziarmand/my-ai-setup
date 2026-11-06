@@ -19,10 +19,12 @@ page needs title, description, headings, Open Graph, and schema.
 | Meta robots, canonical, hreflang, viewport, charset                         | [page-metadata.md](references/page-metadata.md)               |
 | Open Graph and social previews                                              | [open-graph.md](references/open-graph.md)                     |
 | JSON-LD structured data                                                     | [schema-markup.md](references/schema-markup.md)               |
+| Search Console: push pages that already rank onto page one, launch new pages | [google-search-console-ranking.md](references/google-search-console-ranking.md) |
+| Local business: Google Business Profile, map pack, reviews, location pages  | [google-business-profile-seo.md](references/google-business-profile-seo.md) |
 
 ## Notes on the references
 
-1. They are adapted third-party texts, see [LICENSE.txt](LICENSE.txt) for sources, licenses, and what was changed.
+1. They are based on third-party texts, see [SOURCES.md](SOURCES.md).
 2. `ai-writing-detection.md` keeps em dashes on purpose: they are examples of patterns to avoid.
 3. Output still follows `~/.claude/rules/writing-style.md`, whatever tone the references use.
 

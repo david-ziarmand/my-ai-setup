@@ -30,7 +30,7 @@ Supporting files, opened from the ones above when they point to them:
 
 ## Notes on the references
 
-1. They are adapted third-party texts, see [LICENSE.txt](LICENSE.txt) for sources, licenses, and what was changed.
+1. They are based on third-party texts, see [SOURCES.md](SOURCES.md).
 2. Examples are in English, the patterns apply to any language. Write in the site's language.
 3. Output follows `~/.claude/rules/writing-style.md`: no em or en dashes anywhere.
 
