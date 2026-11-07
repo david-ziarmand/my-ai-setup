@@ -14,8 +14,6 @@ paths:
 
 Applies only to WordPress sites that are stores. Base rules are in `wordpress.md`.
 
-A store project imports this file from its `AGENTS.md` with `@~/.claude/rules/woocommerce.md`, so it loads in every session. The `paths` above are a fallback for projects without the import.
-
 ## Setup
 
 1. Add `"woocommerce/woocommerce.php" => "WooCommerce"` to `get_required_plugins()` in `src/shared/helpers/dependencies.php`.
