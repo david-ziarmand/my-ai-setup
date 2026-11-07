@@ -10,8 +10,6 @@ WordPress theme + Tailwind CSS v4 + SCF. Local dev via LocalWP. Deploy via manua
 
 Theme: `app/public/wp-content/themes/{theme-name}/`.
 
-{Store only, otherwise delete this line:} WooCommerce rules: @~/.claude/rules/woocommerce.md
-
 ## Docs
 
 | Doc | Covers |
