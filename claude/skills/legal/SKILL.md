@@ -38,5 +38,5 @@ task covers several legal pages or the product category and jurisdiction are not
   headings. Write the page as HTML with `<h2>` sections.
 - Next.js + Payload: the `legal-pages` feature with its CMS config.
 - Cookie consent: in WordPress GA loads only after consent (`THEME_COOKIE_CONSENT`). In Next.js check whether the
-  analytics service waits for consent: in `easy-dev-website` it does not, GA renders as soon as its env var is set.
+  analytics service waits for consent: in `template-nextjs` it does not, GA renders as soon as its env var is set.
   The cookie table must match what the site really sets.

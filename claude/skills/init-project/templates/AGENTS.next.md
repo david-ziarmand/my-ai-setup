@@ -6,7 +6,7 @@ Guidance for AI agents in this repo. Single source of truth: `CLAUDE.md` and `GE
 
 {One or two sentences: the site, the client, which pages.}
 
-Next.js (App Router) + Payload CMS 3 + PostgreSQL + Tailwind CSS v4. pnpm only. Hosted on {Vercel / other}.
+Next.js (App Router) + Payload CMS 3 + PostgreSQL + Tailwind CSS v4. pnpm only. Hosted on Vercel, media in Vercel Blob.
 
 ## Commands
 
@@ -16,7 +16,7 @@ pnpm devsafe             # clear .next, then dev
 pnpm build
 pnpm lint
 pnpm typecheck
-pnpm format
+pnpm format              # check, format:fix to write
 pnpm generate:types      # after any collection or global schema change
 pnpm generate:importmap  # after adding admin components
 pnpm dump                # dump all CMS content to data/
