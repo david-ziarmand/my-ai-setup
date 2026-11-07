@@ -2,13 +2,19 @@
 paths:
   - "**/wp-content/themes/**/woocommerce/**"
   - "**/wp-content/themes/**/src/features/shop/**"
-  - "**/wp-content/themes/**/src/shared/helpers/woocommerce.php"
+  - "**/wp-content/themes/**/{archive,single}-product.php"
+  - "**/wp-content/themes/**/page-{cart,checkout}.php"
+  - "**/wp-content/themes/**/src/shared/widgets/**/{cart,product}*/**"
+  - "**/wp-content/themes/**/src/shared/helpers/{woocommerce,store,checkout,shipping,order,product}*.php"
+  - "**/wp-content/themes/**/src/shared/api/{cart,checkout,product}*.php"
   - "data/**"
 ---
 
 # WooCommerce
 
 Applies only to WordPress sites that are stores. Base rules are in `wordpress.md`.
+
+A store project imports this file from its `AGENTS.md` with `@~/.claude/rules/woocommerce.md`, so it loads in every session. The `paths` above are a fallback for projects without the import.
 
 ## Setup
 

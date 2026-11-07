@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Guidance for AI agents in this repo. Single source of truth: `CLAUDE.md` and `GEMINI.md` only import this file. Global rules (code style, WordPress, WooCommerce) are loaded from `~/.claude/rules/`.
+Guidance for AI agents in this repo. Single source of truth: `CLAUDE.md` and `GEMINI.md` only import this file. Global rules (code style, WordPress) are loaded from `~/.claude/rules/`.
 
 ## What this is
 
@@ -9,6 +9,8 @@ Guidance for AI agents in this repo. Single source of truth: `CLAUDE.md` and `GE
 WordPress theme + Tailwind CSS v4 + SCF. Local dev via LocalWP. Deploy via manual FTP GitHub Action.
 
 Theme: `app/public/wp-content/themes/{theme-name}/`.
+
+{Store only, otherwise delete this line:} WooCommerce rules: @~/.claude/rules/woocommerce.md
 
 ## Docs
 

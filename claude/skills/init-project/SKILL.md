@@ -22,7 +22,7 @@ Read existing `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, `README.md`, `docs/`, `plan
 
 ## 3. Create agent files
 
-1. `AGENTS.md` from `templates/AGENTS.wp.md` or `templates/AGENTS.next.md`. Fill in the real project name, what the site is, theme path or app paths, and commands. Remove template lines that do not apply.
+1. `AGENTS.md` from `templates/AGENTS.wp.md` or `templates/AGENTS.next.md`. Fill in the real project name, what the site is, theme path or app paths, and commands. Remove template lines that do not apply. For a WooCommerce store keep the `@~/.claude/rules/woocommerce.md` import line, for any other site delete it.
 2. `CLAUDE.md` and `GEMINI.md`, each with a single line: `@AGENTS.md`.
 3. `plans/00-INDEX.md` from `templates/plans-index.md`.
 4. `docs/`: if the project was not made from the starter template, copy the docs from it. If it was, update them to the project: remove what the project dropped, add what it adds. List every doc in the `AGENTS.md` docs table.
